@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9180e0a5-82aa-42c6-8de6-89b47be80952" name="Default" comment="" />
+    <list default="true" id="9180e0a5-82aa-42c6-8de6-89b47be80952" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_3table.py" afterPath="$PROJECT_DIR$/create_3table.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_temp.py" afterPath="$PROJECT_DIR$/excel_temp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_temp.py" afterPath="$PROJECT_DIR$/sql_temp.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment2$excel_temp.coverage" NAME="excel_temp Coverage Results" MODIFIED="1505210670873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/assignment2$create_table.coverage" NAME="create_table Coverage Results" MODIFIED="1505152346558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/assignment2$create_3table.coverage" NAME="create_3table Coverage Results" MODIFIED="1505154731427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1505207198185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$sql_temp.coverage" NAME="sql_temp Coverage Results" MODIFIED="1505180578979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$create_3table.coverage" NAME="create_3table Coverage Results" MODIFIED="1505179994905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -28,8 +36,8 @@
       <file leaf-file-name="create_table.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="410">
+              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
@@ -48,19 +56,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_3table.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_3table.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_3table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="-131">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1505154752000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-                <marker date="1505154752000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-                <marker date="1505154752000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-                <marker date="1505154752000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-                <marker date="1505154752000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-                <marker date="1505154752000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+                <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
+                <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
+                <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
+                <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
+                <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
+                <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel_temp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/excel_temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="110" column="6" lean-forward="true" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1505210670000" expanded="true" signature="622:629" ph="SELECT strft... " />
+                <marker date="1505210670000" expanded="true" signature="622:667" ph="SELECT strft... " />
+                <marker date="1505210670000" expanded="true" signature="622:672" ph="SELECT strft... " />
+                <marker date="1505210670000" expanded="true" signature="622:765" ph="SELECT strft... GTByCity" />
+                <marker date="1505210670000" expanded="true" signature="622:815" ph="SELECT strft... GTByCity" />
+                <marker date="1505210670000" expanded="true" signature="622:832" ph="SELECT strft... GTByCity" />
+                <marker date="1505210670000" expanded="true" signature="622:847" ph="SELECT avg(a... GTByCity" />
+                <marker date="1505210670000" expanded="true" signature="622:852" ph="SELECT round... GTByCity" />
+                <marker date="1505210670000" expanded="true" signature="622:853" ph="SELECT min(a... GTByState" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/axes/_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="3316" column="0" lean-forward="false" selection-start-line="3316" selection-start-column="0" selection-end-line="3316" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql_temp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql_temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <element signature="e#407#421#0" expanded="true" />
+                <marker date="1505181484000" expanded="true" signature="576:703" ph="CREATE TABLE... Southern_cities" />
+                <marker date="1505181484000" expanded="true" signature="1460:1628" ph="INSERT INTO Southern_cities... " />
+                <marker date="1505181484000" expanded="true" signature="1814:1900" ph="SELECT * FRO... GTByState" />
+                <marker date="1505181484000" expanded="true" signature="1814:1909" ph="SELECT * FRO... GTByState" />
+                <marker date="1505181484000" expanded="true" signature="1814:1910" ph="SELECT min(a... GTByCity" />
+                <marker date="1505181484000" expanded="true" signature="1814:1923" ph="SELECT min(a... GTByCity" />
+                <marker date="1505181484000" expanded="true" signature="1814:1925" ph="SELECT min(a... GTByState" />
               </folding>
             </state>
           </provider>
@@ -75,11 +153,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/create_table.py" />
         <option value="$PROJECT_DIR$/create_3table.py" />
+        <option value="$PROJECT_DIR$/sql_temp.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/excel_temp.py" />
       </list>
     </option>
   </component>
@@ -92,8 +176,9 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="825" />
+    <option name="height" value="828" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -109,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,14 +209,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="SearchEverywhereHistoryKey" value="git&#9;null&#9;null&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;git&#9;null&#9;null&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -149,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.create_3table">
+  <component name="RunManager" selected="Python.excel_temp">
     <configuration default="false" name="create_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,6 +271,60 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sql_temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="excel_temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -336,14 +475,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.create_table" />
       <item index="1" class="java.lang.String" itemvalue="Python.create_3table" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sql_temp" />
+      <item index="3" class="java.lang.String" itemvalue="Python.excel_temp" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.create_3table" />
-        <item index="1" class="java.lang.String" itemvalue="Python.create_table" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.excel_temp" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sql_temp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.create_3table" />
+        <item index="4" class="java.lang.String" itemvalue="Python.create_table" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +496,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -363,19 +508,51 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 15h 26m 08s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 15h 26m 12s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 15h 26m 23s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 15h 26m 48s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 15h 27m 59s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 16h 27m 16s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 16h 54m 40s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 17h 50m 42s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 19h 05m 20s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.12 at 19h 06m 39s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="828" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49407116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35573122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -384,6 +561,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -398,69 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/create_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
-            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
-            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -482,26 +597,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_3table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
+            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
+            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pip/vcs/git.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505152346000" expanded="true" signature="158:233" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:234" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="158:238" ph="CREATE TABLE... stocks" />
+            <marker date="1505152346000" expanded="true" signature="698:726" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:741" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:759" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:778" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:793" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="698:794" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="818:919" ph="INSERT INTO stocks... " />
+            <marker date="1505152346000" expanded="true" signature="1061:1108" ph="SELECT * FRO... stocks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#407#421#0" expanded="true" />
+            <marker date="1505181484000" expanded="true" signature="576:703" ph="CREATE TABLE... Southern_cities" />
+            <marker date="1505181484000" expanded="true" signature="1460:1628" ph="INSERT INTO Southern_cities... " />
+            <marker date="1505181484000" expanded="true" signature="1814:1900" ph="SELECT * FRO... GTByState" />
+            <marker date="1505181484000" expanded="true" signature="1814:1909" ph="SELECT * FRO... GTByState" />
+            <marker date="1505181484000" expanded="true" signature="1814:1910" ph="SELECT min(a... GTByCity" />
+            <marker date="1505181484000" expanded="true" signature="1814:1923" ph="SELECT min(a... GTByCity" />
+            <marker date="1505181484000" expanded="true" signature="1814:1925" ph="SELECT min(a... GTByState" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1897" column="0" lean-forward="false" selection-start-line="1897" selection-start-column="0" selection-end-line="1897" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create_3table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="-131">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505154752000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-            <marker date="1505154752000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-            <marker date="1505154752000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-            <marker date="1505154752000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-            <marker date="1505154752000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-            <marker date="1505154752000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
+            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
+            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="3316" column="0" lean-forward="false" selection-start-line="3316" selection-start-column="0" selection-end-line="3316" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="110" column="6" lean-forward="true" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505210670000" expanded="true" signature="622:629" ph="SELECT strft... " />
+            <marker date="1505210670000" expanded="true" signature="622:667" ph="SELECT strft... " />
+            <marker date="1505210670000" expanded="true" signature="622:672" ph="SELECT strft... " />
+            <marker date="1505210670000" expanded="true" signature="622:765" ph="SELECT strft... GTByCity" />
+            <marker date="1505210670000" expanded="true" signature="622:815" ph="SELECT strft... GTByCity" />
+            <marker date="1505210670000" expanded="true" signature="622:832" ph="SELECT strft... GTByCity" />
+            <marker date="1505210670000" expanded="true" signature="622:847" ph="SELECT avg(a... GTByCity" />
+            <marker date="1505210670000" expanded="true" signature="622:852" ph="SELECT round... GTByCity" />
+            <marker date="1505210670000" expanded="true" signature="622:853" ph="SELECT min(a... GTByState" />
           </folding>
         </state>
       </provider>

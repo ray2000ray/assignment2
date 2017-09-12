@@ -4,9 +4,9 @@ import openpyxl
 conn = sqlite3.connect("tempdb.db")
 c = conn.cursor()
 
-c.execute('''CREATE TABLE  GTByCountry(data text, avgTemp text, avgTempUnc text, country text);''')
-c.execute('''CREATE TABLE  GTByCity(data text, avgTemp text, avgTempUnc text, city text, country text, latitude text, longitude text);''')
-c.execute('''CREATE TABLE  GTByState(data text, avgTemp text, avgTempUnc text, state text, country text);''')
+c.execute('''CREATE TABLE  GTByCountry(date text, avgTemp text, avgTempUnc text, country text);''')
+c.execute('''CREATE TABLE  GTByCity(date text, avgTemp text, avgTempUnc text, city text, country text, latitude text, longitude text);''')
+c.execute('''CREATE TABLE  GTByState(date text, avgTemp text, avgTempUnc text, state text, country text);''')
 
 wb = openpyxl.load_workbook('GlobalLandTemperaturesByCountry.xlsx')
 sheet = wb.active
@@ -20,7 +20,7 @@ for i in range (2, maxrow + 1):
     avgTempUnc =str(sheet.cell(row=i, column=3).value)
     country=sheet.cell(row=i, column=4).value
     #c.execute("INSERT INTO stocks VALUES ('" + date + "','" + avgTemp + "','"+ avgTempUnc +"','"+ country + "');")
-    format_str = """INSERT INTO GTByCountry (data, avgTemp, avgTempUnc, country)
+    format_str = """INSERT INTO GTByCountry (date, avgTemp, avgTempUnc, country)
     	VALUES ("{a1}", "{a2}", "{a3}", "{a4}");"""
     sql_command = format_str.format(a1=date, a2=avgTemp, a3=avgTempUnc, a4=country)
     c.execute(sql_command)
@@ -39,7 +39,7 @@ for i in range (2, maxrow+1):
     latitude = sheet.cell(row=i, column=6).value
     longitude = sheet.cell(row=i, column=7).value
     #c.execute("INSERT INTO stocks VALUES ('" + date + "','" + avgTemp + "','"+ avgTempUnc +"','"+ country + "');")
-    format_str = """INSERT INTO GTByCity (data, avgTemp, avgTempUnc, city, country, latitude, longitude) 
+    format_str = """INSERT INTO GTByCity (date, avgTemp, avgTempUnc, city, country, latitude, longitude) 
     	VALUES ("{a1}", "{a2}", "{a3}", "{a4}", "{a5}", "{a6}", "{a7}");"""
     sql_command = format_str.format(a1=date, a2=avgTemp, a3=avgTempUnc, a4=city, a5=country, a6=latitude, a7=longitude)
     c.execute(sql_command)
@@ -55,7 +55,7 @@ for i in range (2, maxrow+1):
     avgTempUnc =str(sheet.cell(row=i, column=3).value)
     state = sheet.cell(row=i, column=4).value
     country = sheet.cell(row=i, column=5).value
-    format_str = """INSERT INTO GTByState (data, avgTemp, avgTempUnc, state, country) 
+    format_str = """INSERT INTO GTByState (date, avgTemp, avgTempUnc, state, country) 
     	VALUES ("{a1}", "{a2}", "{a3}", "{a4}","{a5}");"""
     sql_command = format_str.format(a1=date, a2=avgTemp, a3=avgTempUnc, a4=state, a5=country)
     c.execute(sql_command)
