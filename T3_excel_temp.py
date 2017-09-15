@@ -33,12 +33,12 @@ FROM GTByState where avgTemp is not 'None' and country = 'China' group by Year_s
 result = c.fetchall()
 rows = len(result)
 #print(rows)
-start = 0
+#start = 0
 temps = []
 currentCity = result[0][1]
 startYear = 1820
-#cityNames = []
-#cityNames.append(currentCity)
+cityNames = []
+
 
 ## method 1 to implement line graph function by using plot
 
@@ -52,12 +52,14 @@ for row in range(rows):
             temps.append(result[row][0])
             currentYear = currentYear + 1
         else:
-            #print(str(currentYear) + "--11: " + str(int(result[row][2])))
+            print(str(currentYear) + "--finish--: " + str(int(result[row][2])))
+            print("current city:" + currentCity + ": current year: " + str(currentYear))
             temps.append(result[row][0])
+            cityNames.append(currentCity)
             currentYear = startYear
             print(temps)
-            lines = plot(t+1820, temps)
-            plt.plot(t + 1820, temps, linestyle="-", label=currentCity)
+            plt.plot(t+1820, temps, linestyle="-", label=currentCity)
+
 #            cityNames.append(currentCity)
             temps = []
             if row < len(result)-1:
@@ -90,7 +92,10 @@ for row in range(rows):
     else:
         #print("currentYear: "+str(currentYear) + " -22: " +"row year:"+ str(int(result[row][2])))
         #print("currentCity: "+currentCity + ": temps len: " + str(len(temps)))
+        print(str(currentYear) + "--finish--: " + str(int(result[row][2])))
+        print("current city:" + currentCity + ": current year: " + str(currentYear))
         print(temps)
+        cityNames.append(currentCity)
         plt.plot(t + 1820, temps, linestyle="-", label=currentCity)
         temps = []
         temps.append(result[row][0])
@@ -101,7 +106,7 @@ for row in range(rows):
         ws.cell(row=row+2, column=col+1).value = result[row][col]
 
 
-
+print(cityNames)
 
 
 
