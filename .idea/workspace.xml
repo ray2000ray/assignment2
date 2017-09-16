@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9180e0a5-82aa-42c6-8de6-89b47be80952" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorldTemperature.xlsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/create_table.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tempdb.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WorldTemperature.xlsx" afterPath="$PROJECT_DIR$/WorldTemperature.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T1_create_3table.py" afterPath="$PROJECT_DIR$/T1_create_3table.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T2_sql_temp.py" afterPath="$PROJECT_DIR$/T2_sql_temp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T3_excel_temp.py" afterPath="$PROJECT_DIR$/T3_excel_temp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T4_numpy_temp.py" afterPath="$PROJECT_DIR$/T4_numpy_temp.py" />
     </list>
@@ -16,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/assignment2$excel_temp.coverage" NAME="excel_temp Coverage Results" MODIFIED="1505488605777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$excel_temp.coverage" NAME="excel_temp Coverage Results" MODIFIED="1505538006403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/assignment2$create_table.coverage" NAME="create_table Coverage Results" MODIFIED="1505152346558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/assignment2$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1505207198185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/assignment2$sql_temp.coverage" NAME="sql_temp Coverage Results" MODIFIED="1505180578979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/assignment2$create_3table.coverage" NAME="create_3table Coverage Results" MODIFIED="1505179994905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/assignment2$numpy_temp.coverage" NAME="numpy_temp Coverage Results" MODIFIED="1505488767978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$sql_temp.coverage" NAME="sql_temp Coverage Results" MODIFIED="1505539496533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$create_3table.coverage" NAME="create_3table Coverage Results" MODIFIED="1505539246279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment2$numpy_temp.coverage" NAME="numpy_temp Coverage Results" MODIFIED="1505538227583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,59 +40,69 @@
       <file leaf-file-name="T1_create_3table.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/T1_create_3table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-                <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-                <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-                <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-                <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-                <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+                <marker date="1505539246000" expanded="true" signature="100:198" ph="CREATE TABLE... GTByCountry" />
+                <marker date="1505539246000" expanded="true" signature="217:354" ph="CREATE TABLE... GTByCity" />
+                <marker date="1505539246000" expanded="true" signature="373:481" ph="CREATE TABLE... GTByState" />
+                <marker date="1505539246000" expanded="true" signature="1066:1171" ph="INSERT INTO GTByCountry... " />
+                <marker date="1505539246000" expanded="true" signature="1962:2116" ph="INSERT INTO GTByCity... " />
+                <marker date="1505539246000" expanded="true" signature="2727:2845" ph="INSERT INTO GTByState... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T3_excel_temp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="T3_excel_temp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/T3_excel_temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="120" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="101" selection-end-column="22" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1505488233000" expanded="true" signature="519:526" ph="SELECT strft... " />
-                <marker date="1505488233000" expanded="true" signature="519:564" ph="SELECT strft... " />
-                <marker date="1505488233000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
-                <marker date="1505488233000" expanded="true" signature="519:653" ph="SELECT round... " />
-                <marker date="1505488233000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
-                <marker date="1505488233000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
-                <marker date="1505488233000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
+                <marker date="1505540657000" expanded="true" signature="519:526" ph="SELECT strft... " />
+                <marker date="1505540657000" expanded="true" signature="519:564" ph="SELECT strft... " />
+                <marker date="1505540657000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
+                <marker date="1505540657000" expanded="true" signature="519:653" ph="SELECT round... " />
+                <marker date="1505540657000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
+                <marker date="1505540657000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
+                <marker date="1505540657000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T4_numpy_temp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="T4_numpy_temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/T4_numpy_temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+            <state relative-caret-position="1548">
+              <caret line="104" column="32" lean-forward="true" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1505488921000" expanded="true" signature="436:507" ph="select round... " />
-                <marker date="1505488921000" expanded="true" signature="436:656" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:867" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:886" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:942" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:958" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:980" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:1005" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="436:1032" ph="select round... round" />
-                <marker date="1505488921000" expanded="true" signature="525:656" ph="SELECT round... " />
-                <marker date="1505488921000" expanded="true" signature="782:867" ph="SELECT round... " />
+                <marker date="1505538227000" expanded="true" signature="436:507" ph="select round... " />
+                <marker date="1505538227000" expanded="true" signature="436:656" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:867" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:886" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:942" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:958" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:980" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:1005" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="436:1032" ph="select round... round" />
+                <marker date="1505538227000" expanded="true" signature="525:656" ph="SELECT round... " />
+                <marker date="1505538227000" expanded="true" signature="782:867" ph="SELECT round... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="3795" column="4" lean-forward="false" selection-start-line="3795" selection-start-column="4" selection-end-line="3795" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,17 +110,17 @@
       <file leaf-file-name="T2_sql_temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/T2_sql_temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="312">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#407#421#0" expanded="true" />
-                <marker date="1505477210000" expanded="true" signature="570:697" ph="CREATE TABLE... Southern_cities" />
-                <marker date="1505477210000" expanded="true" signature="1377:1545" ph="INSERT INTO Southern_cities... " />
-                <marker date="1505477210000" expanded="true" signature="1731:1820" ph="SELECT * FRO... GTByState" />
-                <marker date="1505477210000" expanded="true" signature="1731:1839" ph="SELECT * FRO... GTByState" />
-                <marker date="1505477210000" expanded="true" signature="1731:1840" ph="SELECT min(a... GTByCity" />
-                <marker date="1505477210000" expanded="true" signature="1731:1853" ph="SELECT min(a... GTByCity" />
-                <marker date="1505477210000" expanded="true" signature="1731:1855" ph="SELECT min(a... GTByState" />
+                <marker date="1505539496000" expanded="true" signature="570:715" ph="CREATE TABLE... Southern_cities" />
+                <marker date="1505539496000" expanded="true" signature="1396:1564" ph="INSERT INTO Southern_cities... " />
+                <marker date="1505539496000" expanded="true" signature="1750:1869" ph="SELECT * FRO... GTByState" />
+                <marker date="1505539496000" expanded="true" signature="1750:1899" ph="SELECT * FRO... GTByState" />
+                <marker date="1505539496000" expanded="true" signature="1750:1900" ph="SELECT min(a... GTByCity" />
+                <marker date="1505539496000" expanded="true" signature="1750:1913" ph="SELECT min(a... GTByCity" />
+                <marker date="1505539496000" expanded="true" signature="1750:1915" ph="SELECT min(a... GTByState" />
               </folding>
             </state>
           </provider>
@@ -144,10 +156,11 @@
         <option value="$PROJECT_DIR$/sql_temp.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/numpy_temp.py" />
-        <option value="$PROJECT_DIR$/T2_sql_temp.py" />
         <option value="$PROJECT_DIR$/excel_temp.py" />
-        <option value="$PROJECT_DIR$/T3_excel_temp.py" />
         <option value="$PROJECT_DIR$/T4_numpy_temp.py" />
+        <option value="$PROJECT_DIR$/T1_create_3table.py" />
+        <option value="$PROJECT_DIR$/T2_sql_temp.py" />
+        <option value="$PROJECT_DIR$/T3_excel_temp.py" />
       </list>
     </option>
   </component>
@@ -158,7 +171,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="816" />
   </component>
@@ -180,6 +193,16 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="assignment2" />
@@ -218,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.numpy_temp">
+  <component name="RunManager" selected="Python.sql_temp">
     <configuration default="false" name="create_3table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -468,11 +491,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.numpy_temp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.excel_temp" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sql_temp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.create_3table" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sql_temp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.create_3table" />
+        <item index="2" class="java.lang.String" itemvalue="Python.numpy_temp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.excel_temp" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505486791787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 2">
+      <created>1505489016596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505489016596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,19 +563,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="816" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37751004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37751004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31620553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -574,7 +604,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version" />
+    <MESSAGE value="version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,12 +628,12 @@
           <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+            <marker date="1505539246000" expanded="true" signature="100:198" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505539246000" expanded="true" signature="217:354" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505539246000" expanded="true" signature="373:481" ph="CREATE TABLE... GTByState" />
+            <marker date="1505539246000" expanded="true" signature="1066:1171" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505539246000" expanded="true" signature="1962:2116" ph="INSERT INTO GTByCity... " />
+            <marker date="1505539246000" expanded="true" signature="2727:2845" ph="INSERT INTO GTByState... " />
           </folding>
         </state>
       </provider>
@@ -613,13 +644,13 @@
           <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488233000" expanded="true" signature="519:526" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:564" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:653" ph="SELECT round... " />
-            <marker date="1505488233000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:526" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:564" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:653" ph="SELECT round... " />
+            <marker date="1505540657000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
           </folding>
         </state>
       </provider>
@@ -630,17 +661,17 @@
           <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488921000" expanded="true" signature="436:507" ph="select round... " />
-            <marker date="1505488921000" expanded="true" signature="436:656" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:867" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:886" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:942" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:958" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:980" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1005" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1032" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="525:656" ph="SELECT round... " />
-            <marker date="1505488921000" expanded="true" signature="782:867" ph="SELECT round... " />
+            <marker date="1505538227000" expanded="true" signature="436:507" ph="select round... " />
+            <marker date="1505538227000" expanded="true" signature="436:656" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:867" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:886" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:942" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:958" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:980" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1005" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1032" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="525:656" ph="SELECT round... " />
+            <marker date="1505538227000" expanded="true" signature="782:867" ph="SELECT round... " />
           </folding>
         </state>
       </provider>
@@ -651,13 +682,13 @@
           <caret line="43" column="95" lean-forward="false" selection-start-line="43" selection-start-column="90" selection-end-line="43" selection-end-column="95" />
           <folding>
             <element signature="e#407#421#0" expanded="true" />
-            <marker date="1505477210000" expanded="true" signature="570:697" ph="CREATE TABLE... Southern_cities" />
-            <marker date="1505477210000" expanded="true" signature="1377:1545" ph="INSERT INTO Southern_cities... " />
-            <marker date="1505477210000" expanded="true" signature="1731:1820" ph="SELECT * FRO... GTByState" />
-            <marker date="1505477210000" expanded="true" signature="1731:1839" ph="SELECT * FRO... GTByState" />
-            <marker date="1505477210000" expanded="true" signature="1731:1840" ph="SELECT min(a... GTByCity" />
-            <marker date="1505477210000" expanded="true" signature="1731:1853" ph="SELECT min(a... GTByCity" />
-            <marker date="1505477210000" expanded="true" signature="1731:1855" ph="SELECT min(a... GTByState" />
+            <marker date="1505539496000" expanded="true" signature="570:715" ph="CREATE TABLE... Southern_cities" />
+            <marker date="1505539496000" expanded="true" signature="1396:1564" ph="INSERT INTO Southern_cities... " />
+            <marker date="1505539496000" expanded="true" signature="1750:1869" ph="SELECT * FRO... GTByState" />
+            <marker date="1505539496000" expanded="true" signature="1750:1899" ph="SELECT * FRO... GTByState" />
+            <marker date="1505539496000" expanded="true" signature="1750:1900" ph="SELECT min(a... GTByCity" />
+            <marker date="1505539496000" expanded="true" signature="1750:1913" ph="SELECT min(a... GTByCity" />
+            <marker date="1505539496000" expanded="true" signature="1750:1915" ph="SELECT min(a... GTByState" />
           </folding>
         </state>
       </provider>
@@ -676,12 +707,12 @@
           <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+            <marker date="1505539246000" expanded="true" signature="100:198" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505539246000" expanded="true" signature="217:354" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505539246000" expanded="true" signature="373:481" ph="CREATE TABLE... GTByState" />
+            <marker date="1505539246000" expanded="true" signature="1066:1171" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505539246000" expanded="true" signature="1962:2116" ph="INSERT INTO GTByCity... " />
+            <marker date="1505539246000" expanded="true" signature="2727:2845" ph="INSERT INTO GTByState... " />
           </folding>
         </state>
       </provider>
@@ -692,13 +723,13 @@
           <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488233000" expanded="true" signature="519:526" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:564" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:653" ph="SELECT round... " />
-            <marker date="1505488233000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:526" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:564" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:653" ph="SELECT round... " />
+            <marker date="1505540657000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
           </folding>
         </state>
       </provider>
@@ -709,17 +740,17 @@
           <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488921000" expanded="true" signature="436:507" ph="select round... " />
-            <marker date="1505488921000" expanded="true" signature="436:656" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:867" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:886" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:942" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:958" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:980" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1005" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1032" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="525:656" ph="SELECT round... " />
-            <marker date="1505488921000" expanded="true" signature="782:867" ph="SELECT round... " />
+            <marker date="1505538227000" expanded="true" signature="436:507" ph="select round... " />
+            <marker date="1505538227000" expanded="true" signature="436:656" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:867" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:886" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:942" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:958" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:980" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1005" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1032" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="525:656" ph="SELECT round... " />
+            <marker date="1505538227000" expanded="true" signature="782:867" ph="SELECT round... " />
           </folding>
         </state>
       </provider>
@@ -738,12 +769,12 @@
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+            <marker date="1505539246000" expanded="true" signature="100:198" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505539246000" expanded="true" signature="217:354" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505539246000" expanded="true" signature="373:481" ph="CREATE TABLE... GTByState" />
+            <marker date="1505539246000" expanded="true" signature="1066:1171" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505539246000" expanded="true" signature="1962:2116" ph="INSERT INTO GTByCity... " />
+            <marker date="1505539246000" expanded="true" signature="2727:2845" ph="INSERT INTO GTByState... " />
           </folding>
         </state>
       </provider>
@@ -801,23 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/T2_sql_temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#407#421#0" expanded="true" />
-            <marker date="1505477210000" expanded="true" signature="570:697" ph="CREATE TABLE... Southern_cities" />
-            <marker date="1505477210000" expanded="true" signature="1377:1545" ph="INSERT INTO Southern_cities... " />
-            <marker date="1505477210000" expanded="true" signature="1731:1820" ph="SELECT * FRO... GTByState" />
-            <marker date="1505477210000" expanded="true" signature="1731:1839" ph="SELECT * FRO... GTByState" />
-            <marker date="1505477210000" expanded="true" signature="1731:1840" ph="SELECT min(a... GTByCity" />
-            <marker date="1505477210000" expanded="true" signature="1731:1853" ph="SELECT min(a... GTByCity" />
-            <marker date="1505477210000" expanded="true" signature="1731:1855" ph="SELECT min(a... GTByState" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -828,62 +842,79 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="415" column="40" lean-forward="true" selection-start-line="415" selection-start-column="40" selection-end-line="415" selection-end-column="40" />
+        <state relative-caret-position="146">
+          <caret line="3795" column="4" lean-forward="false" selection-start-line="3795" selection-start-column="4" selection-end-line="3795" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T4_numpy_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="104" column="32" lean-forward="true" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1505538227000" expanded="true" signature="436:507" ph="select round... " />
+            <marker date="1505538227000" expanded="true" signature="436:656" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:867" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:886" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:942" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:958" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:980" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1005" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="436:1032" ph="select round... round" />
+            <marker date="1505538227000" expanded="true" signature="525:656" ph="SELECT round... " />
+            <marker date="1505538227000" expanded="true" signature="782:867" ph="SELECT round... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/T1_create_3table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505179869000" expanded="true" signature="100:181" ph="CREATE TABLE... GTByCountry" />
-            <marker date="1505179869000" expanded="true" signature="200:320" ph="CREATE TABLE... GTByCity" />
-            <marker date="1505179869000" expanded="true" signature="339:430" ph="CREATE TABLE... GTByState" />
-            <marker date="1505179869000" expanded="true" signature="1015:1120" ph="INSERT INTO GTByCountry... " />
-            <marker date="1505179869000" expanded="true" signature="1911:2065" ph="INSERT INTO GTByCity... " />
-            <marker date="1505179869000" expanded="true" signature="2676:2794" ph="INSERT INTO GTByState... " />
+            <marker date="1505539246000" expanded="true" signature="100:198" ph="CREATE TABLE... GTByCountry" />
+            <marker date="1505539246000" expanded="true" signature="217:354" ph="CREATE TABLE... GTByCity" />
+            <marker date="1505539246000" expanded="true" signature="373:481" ph="CREATE TABLE... GTByState" />
+            <marker date="1505539246000" expanded="true" signature="1066:1171" ph="INSERT INTO GTByCountry... " />
+            <marker date="1505539246000" expanded="true" signature="1962:2116" ph="INSERT INTO GTByCity... " />
+            <marker date="1505539246000" expanded="true" signature="2727:2845" ph="INSERT INTO GTByState... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T2_sql_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#407#421#0" expanded="true" />
+            <marker date="1505539496000" expanded="true" signature="570:715" ph="CREATE TABLE... Southern_cities" />
+            <marker date="1505539496000" expanded="true" signature="1396:1564" ph="INSERT INTO Southern_cities... " />
+            <marker date="1505539496000" expanded="true" signature="1750:1869" ph="SELECT * FRO... GTByState" />
+            <marker date="1505539496000" expanded="true" signature="1750:1899" ph="SELECT * FRO... GTByState" />
+            <marker date="1505539496000" expanded="true" signature="1750:1900" ph="SELECT min(a... GTByCity" />
+            <marker date="1505539496000" expanded="true" signature="1750:1913" ph="SELECT min(a... GTByCity" />
+            <marker date="1505539496000" expanded="true" signature="1750:1915" ph="SELECT min(a... GTByState" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/T3_excel_temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="120" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488233000" expanded="true" signature="519:526" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:564" ph="SELECT strft... " />
-            <marker date="1505488233000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:653" ph="SELECT round... " />
-            <marker date="1505488233000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
-            <marker date="1505488233000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T4_numpy_temp.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1505488921000" expanded="true" signature="436:507" ph="select round... " />
-            <marker date="1505488921000" expanded="true" signature="436:656" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:867" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:886" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:942" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:958" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:980" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1005" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="436:1032" ph="select round... round" />
-            <marker date="1505488921000" expanded="true" signature="525:656" ph="SELECT round... " />
-            <marker date="1505488921000" expanded="true" signature="782:867" ph="SELECT round... " />
+            <marker date="1505540657000" expanded="true" signature="519:526" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:564" ph="SELECT strft... " />
+            <marker date="1505540657000" expanded="true" signature="519:565" ph="SELECT min(a... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:653" ph="SELECT round... " />
+            <marker date="1505540657000" expanded="true" signature="519:671" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:721" ph="SELECT round... GTByState" />
+            <marker date="1505540657000" expanded="true" signature="519:761" ph="SELECT round... GTByState" />
           </folding>
         </state>
       </provider>

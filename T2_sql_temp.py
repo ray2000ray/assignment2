@@ -15,12 +15,12 @@ conn = sqlite3.connect("tempdb.db")
 c = conn.cursor()
 
 #create a table to store southern hemisphere cities
-c.execute('''CREATE TABLE  Southern_cities(date text, avgTemp text, avgTempUnc text, city text, country text, latitude text, longitude text);''')
+c.execute('''CREATE TABLE IF NOT EXISTS  Southern_cities(date date, avgTemp double, avgTempUnc double, city text, country text, latitude text, longitude text);''')
 
 wb = openpyxl.load_workbook('GlobalLandTemperaturesByMajorCity.xlsx')
 sheet = wb.active
 maxrow = sheet.max_row
-print('start inserting', end="")
+#print('start inserting', end="")
 for i in range (2, maxrow+1):
     latitude = sheet.cell(row=i, column=6).value
     #get the cities' latitude  content "S"
@@ -38,7 +38,8 @@ for i in range (2, maxrow+1):
         c.execute(sql_command)
 conn.commit()
 
-c.execute("SELECT min(avgTemp), max(avgTemp), avg(avgTemp)  FROM GTByCity WHERE state ='Queensland' AND year = AND date is not 'none'")
+c.execute("SELECT round(min(avgTemp),2), round(max(avgTemp),2), round(avg(avgTemp),2)  FROM GTByState \
+WHERE state ='Queensland' AND date like '2000%' AND date is not 'none'")
 str = c.fetchall()
 for s in str:
     print(s)

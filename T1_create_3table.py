@@ -4,9 +4,9 @@ import openpyxl
 conn = sqlite3.connect("tempdb.db")
 c = conn.cursor()
 
-c.execute('''CREATE TABLE  GTByCountry(date text, avgTemp text, avgTempUnc text, country text);''')
-c.execute('''CREATE TABLE  GTByCity(date text, avgTemp text, avgTempUnc text, city text, country text, latitude text, longitude text);''')
-c.execute('''CREATE TABLE  GTByState(date text, avgTemp text, avgTempUnc text, state text, country text);''')
+c.execute('''CREATE TABLE IF NOT EXISTS GTByCountry(date date, avgTemp DOUBLE, avgTempUnc DOUBLE, country text);''')
+c.execute('''CREATE TABLE IF NOT EXISTS GTByCity(date date, avgTemp DOUBLE, avgTempUnc DOUBLE, city text, country text, latitude text, longitude text);''')
+c.execute('''CREATE TABLE IF NOT EXISTS GTByState(date date, avgTemp DOUBLE, avgTempUnc DOUBLE, state text, country text);''')
 
 wb = openpyxl.load_workbook('GlobalLandTemperaturesByCountry.xlsx')
 sheet = wb.active

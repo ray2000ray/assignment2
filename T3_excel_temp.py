@@ -58,8 +58,13 @@ for row in range(rows):
             cityNames.append(currentCity)
             currentYear = startYear
             print(temps)
-            plt.plot(t+1820, temps, linestyle="-", label=currentCity)
-
+            #using different line styles for indicating different cities
+            if row <1600:
+                plt.plot(t+1820, temps, linestyle="-", label=currentCity)
+            elif row< 3200:
+                plt.plot(t + 1820, temps, linestyle="--", label=currentCity)
+            else:
+                plt.plot(t + 1820, temps, linestyle=":", label=currentCity)
 #            cityNames.append(currentCity)
             temps = []
             if row < len(result)-1:
@@ -89,12 +94,12 @@ for row in range(rows):
             currentYear = startYear
             temps = []
             currentCity = result[row][1]
-    else:
+    else: # this section used to comlepted the if logical
         #print("currentYear: "+str(currentYear) + " -22: " +"row year:"+ str(int(result[row][2])))
-        #print("currentCity: "+currentCity + ": temps len: " + str(len(temps)))
-        print(str(currentYear) + "--finish--: " + str(int(result[row][2])))
-        print("current city:" + currentCity + ": current year: " + str(currentYear))
-        print(temps)
+        # #print("currentCity: "+currentCity + ": temps len: " + str(len(temps)))
+        # print(str(currentYear) + "--finish--: " + str(int(result[row][2])))
+        # print("current city:" + currentCity + ": current year: " + str(currentYear))
+        # print(temps)
         cityNames.append(currentCity)
         plt.plot(t + 1820, temps, linestyle="-", label=currentCity)
         temps = []
@@ -118,4 +123,5 @@ xlabel('Year')
 ylabel('AvgTemperature')
 title('AvgTemperature of cities of China in years')
 grid(True)
-show()
+plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+plt.show()

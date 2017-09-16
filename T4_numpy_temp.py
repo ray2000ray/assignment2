@@ -58,7 +58,7 @@ for row in range(rows):
             currentYear = startYear
             print(temps)
             stateNames.append(currentState)
-            plot(t+1952, temps, linestyle="-", label=currentState)
+            plot(t+1952, temps, label=currentState)
 #            cityNames.append(currentState)
             temps = []
             if row < len(result)-1:
@@ -93,7 +93,7 @@ for row in range(rows):
         #print("currentState: "+currentState + ": temps len: " + str(len(temps)))
         print(temps)
         stateNames.append(currentState)
-        plt.plot(t + 1952, temps, linestyle="-", label=currentState)
+        plt.plot(t + 1952, temps, label=currentState)
         temps = []
         temps.append(result[row][0])
         currentState = result[row][1]
@@ -108,4 +108,5 @@ xlabel('Year')
 ylabel('Difference')
 title('Comparison Difference temp of states in Australia by years')
 grid(True)
-show()
+plt.legend(bbox_to_anchor=(1.05, 1), loc=1, borderaxespad=0.)
+plt.show()
